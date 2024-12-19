@@ -1,0 +1,43 @@
+Summary
+
+Integrate Okta as an OIDC Identity Provider (IdP) for Amazon Cognito User Pools, enabling centralized authentication and extending automation through Terraform for scalability and repeatability.
+
+Description
+
+This task aims to implement and automate the configuration of Okta as an OpenID Connect (OIDC) IdP for Amazon Cognito User Pools. The project includes creating the integration manually and developing a Terraform module for automating the setup. Additionally, optional enhancements such as custom attributes, MFA, and token lifetimes will be included.
+
+Acceptance Criteria
+Okta configured as the OIDC IdP for Cognito User Pools.
+Terraform module developed to automate the process.
+Custom attributes mapped from Okta to Cognito.
+MFA enabled for enhanced security.
+Token lifetimes configured for compliance with security policies.
+Successful end-to-end testing of the integration.
+Sub-Tasks
+Manual Setup for Okta and Cognito Integration
+Configure an OIDC application in Okta.
+Set up Cognito User Pool and integrate Okta as an IdP.
+Test the manual integration.
+Terraform Module Development
+Create a reusable Terraform module for OIDC integration.
+Include resources for Okta (OIDC app) and Cognito (IdP configuration, mappings).
+Parameterize the module for flexibility.
+Custom Attribute Mapping
+Add and map custom attributes between Okta and Cognito.
+Validate that attributes appear in Cognito tokens.
+MFA Configuration
+Enable MFA in Okta and test the flow.
+Ensure MFA is triggered during Cognito authentication.
+Token Lifetime Configuration
+Adjust token lifetimes in Cognito and Okta.
+Validate expiration times in issued tokens.
+Testing and Validation
+Perform end-to-end testing using a sample application or Postman.
+Document the process and outcomes.
+Documentation and Deployment
+Create detailed documentation for the integration process.
+Deploy the Terraform module in a test environment for validation.
+Deliverables
+Terraform module for Okta-Cognito OIDC integration.
+Documentation with setup and automation instructions.
+Successfully tested and validated integration.
