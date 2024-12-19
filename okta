@@ -1,0 +1,1 @@
+OpenID Connect (OIDC) Integration: Configure Okta as an OIDC IdP for Cognito User Pools, allowing applications to authenticate users via OIDC protocols.
